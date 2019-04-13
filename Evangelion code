@@ -1,0 +1,300 @@
+/*Fonts*/
+
+/*Fonts*/
+/*===============Top menu=================*/
+/*===Site logo===*/
+@media only screen and (min-width: 1024px){
+  .l-top_menu .inner .logo{} 
+}
+.l-top_menu .inner .logo{
+    background: url(https://i.imgur.com/AbqnuKD.png);
+    margin: 8px 15px 0 10px;
+    width: 125px;
+    height: 25px; 
+}
+.l-top_menu .to-mobile-forum {
+    color: #bababa;
+    left: 140px;
+    margin: 5px !important;
+}  
+
+/*===Site logo===*/
+/*===Top nav===*/
+.x1200 .l-top_menu .inner{
+    max-width: 1030px;
+}
+.l-top_menu .menu-mobile .search, .l-top_menu .menu-mobile .menu, .l-top_menu .menu-mobile #sign_in, .l-top_menu .menu-userbox .search, .l-top_menu .menu-userbox .menu, .l-top_menu .menu-userbox #sign_in{
+  	color: #bababa;
+    margin: 5px 2px 0 15px !important;
+}
+
+.l-top_menu{  
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration-color: #fe121b;
+    height: 40px;
+} 
+.l-top_menu .menu-items{
+    margin-left: 135px;
+}
+.l-top_menu .menu-items>.entry>a{
+    font-size:14px;
+    color: #fe121b;
+    padding: 8px 10px 0;
+    margin-left: 10px;
+}
+.l-top_menu .menu-items>.entry>.submenu>a{
+    color: #fe121b;
+    font-size:13px;
+}
+.l-top_menu .menu-items>.entry.calendar>a, .l-top_menu .menu-items>.entry.info>a{
+    padding: 9px;
+}
+.to-top-fix, .l-top_menu {
+	background: none;
+	border-bottom: none;
+    margin: 0 auto;
+}
+.l-top_menu .inner {
+	background-color: #353535; 
+	height: 40px;
+  	border-radius: 6px;
+}
+/*===tournament icon===*/
+.l-top_menu .menu-items>.entry>.contest{
+    margin: 10px 5px 0 0;
+}
+.l-top_menu .menu-items>.entry>.contest:before{
+    line-height: 6px;
+}
+.menu .unread-count:hover, .menu .contest:hover{
+   	background: #fe121b !important;
+}
+/*===tournament icon===*/
+/*===Search and mini avatar===*/
+@media only screen and (max-width: 1024px){
+  	.userbox img.avatar, .menu .unread-count{
+     	margin-top: 0; 
+  	}    
+    .menu .unread-count{	
+     	right: -6px !important;
+    	top: -3px !important;   	
+    }
+  	.l-top_menu .menu-userbox{
+      	margin-right: 0 !important;
+  	}
+}
+.menu .avatar{
+  	height: 30px;
+}
+.l-top_menu .menu-search>.b-main_search, .l-top_menu .menu-search{
+	margin-top: 5px;
+}
+.l-top_menu .menu-userbox{
+	margin-top: 5px;
+  	margin-right: 25px;
+}
+.menu .unread-count{
+    position: absolute;
+    right: 15px;
+    top: 2px;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    line-height: 16px;
+    border: 2px solid #353535;
+}
+.menu .unread-count, .menu .contest{
+  	background: #fe121b;
+  	color: #353535;
+}
+.menu .avatar, .menu .unread-count, .menu .contest{
+    border-radius: 15px;
+}
+
+.l-top_menu .submenu>.entry, .b-main_search .popup li{
+    color: #fe121b;
+}
+.l-top_menu .menu-search>.entry, .l-top_menu .menu-userbox>.entry{
+  	padding: 0;	
+} 
+/*===Search and mini avatar===*/
+/*===Top nav===*/
+/*===============Top menu===================*/
+/*===============Profile head===============*/
+.avatar>img{
+    border-radius: 80px;
+    border: 1px solid #fe121cc2;
+    box-shadow: 0 0 5px #fe121cc2;
+}
+.p-profiles .profile-head .c-brief header, .p-profiles .profile-head .c-brief .avatar .profile-actions, .c-lists-info{
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 6px;
+    padding: 5px;
+  	margin-bottom: 5px;
+}
+.b-stats_bar .bar{
+  	border-radius: 6px;  
+}
+/*===Timelenes anime and manga===*/
+
+.b-stats_bar .bar{
+    box-shadow: 0 0 3px #000000c2;
+}  
+.b-stats_bar.anime .bar .first{
+  	background: #3c3e3c;
+}
+.b-stats_bar.anime .bar .second{
+  	background: #505050a6;
+}
+.b-stats_bar.manga .bar .first{
+    background: #288a78;
+} 
+.b-stats_bar.manga .bar .second{
+    background: #33776b5c;
+}  
+.b-stats_bar .bar .third{
+  	background: #adadada8;
+}
+/*===Timelenes anime and manga===*/
+/*===============Profile head==================*/
+/*===============Profile content===============*/
+/*===Histody===*/
+.p-profiles .profile-head .c-history{
+    border-radius: 6px;
+    padding: 4px;
+}
+.p-profiles .profile-head .c-history.x3{
+    background-color: rgba(255, 255, 255, 0.6);
+}
+.p-profiles .profile-head .c-history .entry .misc{
+  	color: #353535 !important;
+}
+.p-profiles .profile-head .c-history .entry .misc.date{
+ 	color: #000000 !important;
+}
+/*===Histody===*/
+/*===Fritends===*//*===Clubs===*/
+.cc-2>.c-column>.block:last-child, .cc-2>.c-column>.subcontent:last-child, .cc-2a>.c-column:last-child, .cc-2a>.c-column:nth-child(2n+1){
+	height: 127px;
+}
+
+.p-profiles .profile-content .cc-2 .c-right .cc-2a{
+	position: absolute;
+    top: -42px;
+    right: 0;
+    width: 49%;
+    margin: -262px -252px 0px 0;
+}
+.p-profiles-show.x1200 .profile-content .c-right .cc-2a>.c-column{
+	width: 47%;
+    height: 115px;
+    margin-top: 21px;
+}
+@media screen and (max-width: 1200px){
+    .cc-2a>.c-column{
+  		float: none;  	
+    }
+}
+@media screen and (max-width: 1024px){
+	.p-profiles .profile-content .cc-2 .c-right .cc-2a{
+  		position: relative;
+    	top: -60px;
+    	right: 6%;
+    	width: 212.5%;
+    	margin: 52px 0 0 6%;  
+  	}
+  	.p-profiles-show.x1200 .profile-content .c-rigth .cc-2a>.c-column{
+  	    width: 100%;
+    }
+  	.p-profiles-show.x1200 .profile-content .c-left{
+  	    width: 100%;
+    }
+}
+/*===Fritends===*//*===Clubs===*/
+/*===favorites===*/
+.p-profiles-show.x1200 .profile-content .c-right{
+  	width: 100%;
+}
+#cutted_covers_1 .image-cutter{
+  	max-height: 100%;
+    max-width: 100%;
+  	border-radius: 6px;
+}	
+.cc-2>.c-column>.block:last-child, .cc-2>.-column>.subcontent:last-child, .cc-2a>.c-column:last-child, .cc-2a>.c-column:nth-child(2n+1){
+	background-color: rgba(255, 255, 255, 0.6);
+    padding: 5px;
+    border-radius: 6px;
+}
+.cc-2>.c-column>.block:last-child, .cc-2>.c-column>.subcontent:last-child{
+	height: 100%;
+}
+/*===favorites===*/
+@media screen and (min-width: 1024px){
+  .p-profiles-show.x1200 .profile-content .c-left{
+      width: 74%;
+  }
+}
+.cc-2>.c-column:nth-child(2n+1){
+	background-color: rgba(255, 255, 255, 0.6);
+  	border-radius: 6px;
+  	padding: 4px;
+}
+.p-profiles-show .lifetime{
+  	margin-bottom: 20px;
+}
+.p-profiles-show .lifetime .bar {
+    height: 10px;
+    line-height: 5px;
+}
+.p-profiles-show .lifetime .cuts .cut {
+    height: 10px;
+    width: 2px;
+    background: black;
+}
+.p-profiles-show .lifetime .times .time {
+    font-size: 13px;
+}
+.bar.simple .bar.s3 { background: #7F7F7F;}
+.bar.simple .bar:hover.s3 { background: #919191;}
+.bar.simple .bar.s2 { background: #565656;}
+.bar.simple .bar:hover.s2 { background: #7F7F7F;}
+.bar.simple .bar.s1 { background: #444444;}
+.bar.simple .bar:hover.s1 { background: #565656;}
+.bar.simple .bar.s0 { background: #363636;}
+.bar.simple .bar:hover.s0 { background: #444444;}
+/*===Statistic===*/
+/*===============Profile content===============*/
+/*===============Common styles=================*/
+body{
+    background-image: url(https://i.imgur.com/G7WnaH1.jpg);
+    -moz-background-size: 102%; /* Firefox 3.6+ */
+    -webkit-background-size: 102%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 102%; /* Opera 9.6+ */
+    background-size: 102%; /* Современные браузеры */
+    background-attachment:fixed;
+    
+}
+.l-page{
+    background-color: #2b2a2a85;
+    border-radius: 6px;
+}
+.x1200 .l-page{
+	max-width: 1000px;
+}
+.subheadline{
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0);
+    border-left: none;
+}
+header.head, #cutted_covers_1, #cutted_covers_2, #cutted_covers_3,
+#cutted_covers_4, #cutted_covers_5, #cutted_covers_6, #cutted_covers_7,
+#cutted_covers_8, #cutted_covers_9, #cutted_covers_10, 
+.menu-slide-outer.x199 .l-menu:last-child, .subheadline{
+  	background-color: rgba(255, 255, 255, 0.6);
+    padding: 5px;
+    border-radius: 6px;
+}
+/*===============Common styles=================*/
