@@ -1,0 +1,333 @@
+[CSS КОДЫ]
+
+.l-top_menu {
+background: url(http://oboi.cc/uploads/11_05_2013/view/201209/oboik.ru_8836.jpg) repeat;
+}
+/* AUTO=body_background */ body { background: url(http://oboi.cc/uploads/11_05_2013/view/201209/oboik.ru_8836.jpg) repeat fixed top; }
+.l-page {
+background-color: rgba(220, 220, 220, 0.7);
+}
+.p-profiles .profile-head .c-brief .avatar > img {animation: flyingavatar 4s ease-in-out infinite}
+@keyframes flyingavatar {
+0% {transform: translateY(0px)}
+50% {transform: translateY(-15px)}
+100% {transform: translateY(0px)}
+}
+.avatar img {
+border-radius: 50%;
+}
+.to-top-fix,
+.l-top_menu {
+background: url( ) repeat;
+}
+.l-top_menu:after {
+  
+background-position: 52% 97%;
+}
+.p-profiles-show .profile-head:before {
+    content: '';
+    display: inline-block;
+    height: 1350px; /* высота обложки */
+    width: 100%;
+    background: url(http://i.imgur.com/0sJrzEV.png) no-repeat; /* сама обложка */
+    background-size: cover;
+}
+header.head h1, header.head h2 {
+font: 23px Segoe UI Medium, verdana, arial, sans-serif; color: #c52dfc;
+}
+.menu .unread-count, .menu .contest {
+background: #c52dfc !important;
+.b-stats_bar.anime .bar .first {
+background: #edbdff;
+border-radius: 2px;
+}
+}
+.b-stats_bar.manga .bar .second {
+background: #edbdff;
+}
+.b-stats_bar.anime .bar .second {
+background: #edbdff; 
+}
+.b-stats_bar.anime .bar .first {
+background: #b78bc7;
+border-radius: 2px;
+}
+.bar.simple .bar.s0 {background:#db2727}
+.bar.simple .bar.s1 { background:#db2778}
+.bar.simple .bar.s2 { background:#dbd227}
+.bar.simple .bar.s3 { background:#27db33}
+.bar.simple .bar:hover.s0 { background:#f01f1f}
+.bar.simple .bar:hover.s1 { background:#f5187c}
+.bar.simple .bar:hover.s2 { background:#f5e911}
+.bar.simple .bar:hover.s3 { background:#07fa18}
+.subheadline {color:#c52dfc}
+.subheadline > a {color:#c52dfc}
+.b-feedback {
+visibility: hidden;
+}
+.to-top-fix {background: none;
+border-bottom: none;}
+img {border-radius: 46px;}
+body {
+color: purple
+}
+
+;
+}
+
+body:before {
+content: '';
+display: block;
+width: 107%;
+height: calc(110% - 26px);
+position: fixed;
+right: calc(-300px - 28%);
+background-image: url(http://i.imgur.com/plvLAZN.png);
+background-repeat: no-repeat;
+background-position: bottom center;
+background-size: auto 40%;
+top: -5%;
+transform: scale(-1, 1);
+}
+body:after {
+content: '';
+display: block;
+width: 280%;
+height: calc(110% - 26px);
+position: fixed;
+right: calc(-250px - 29%);
+background-image: url(http://i.imgur.com/YzX0dsh.png);
+background-repeat: no-repeat;
+background-position: bottom center;
+background-size: auto 50%;
+top: -5%;
+transform: scale(-1, 1);
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Kurale';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Kurale Regular'), local('Kurale-Regular'), url(https://fonts.gstatic.com/s/kurale/v2/7jJN8qaAJ-bvl8FfBXHmmvesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Kurale';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Kurale Regular'), local('Kurale-Regular'), url(https://fonts.gstatic.com/s/kurale/v2/P7qVd45CCg82OZad2GrcAvesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* devanagari */
+@font-face {
+  font-family: 'Kurale';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Kurale Regular'), local('Kurale-Regular'), url(https://fonts.gstatic.com/s/kurale/v2/WJehOQP9x2aWC2cx4q6UhPesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  unicode-range: U+02BC, U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200B-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Kurale';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Kurale Regular'), local('Kurale-Regular'), url(https://fonts.gstatic.com/s/kurale/v2/3b_QANVGb6pYNx7RYyevDvesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Kurale';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Kurale Regular'), local('Kurale-Regular'), url(https://fonts.gstatic.com/s/kurale/v2/qUcQKP0WQHGvJJtuLvvwEg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+body, input, select, button, textarea {
+  font-family: 'Kurale';
+}
+.activity .graph.vertical .line .bar {
+  box-sizing: content-box;
+  transform: translateY(1px);
+  transform-origin: center bottom;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 1.5s;
+  animation-name: activity;
+}
+.activity .graph.vertical .line .bar:hover {
+  animation-name: none;
+  transform: none;
+}
+.activity .graph.vertical .line:nth-of-type(6n+2) .bar {
+  animation-delay: -.25s;
+}
+.activity .graph.vertical .line:nth-of-type(6n+4) .bar {
+  animation-delay: -.5s;
+}
+.activity .graph.vertical .line:nth-of-type(6n+3) .bar {
+  animation-delay: -.75s;
+}
+.activity .graph.vertical .line:nth-of-type(6n+6) .bar {
+  animation-delay: -1s;
+}
+.activity .graph.vertical .line:nth-of-type(6n+5) .bar {
+  animation-delay: -1.25s;
+}
+@keyframes activity {
+  0%, 100% {
+    transform: translateY(1px);
+  }
+  50% {
+    transform: translateY(7px);
+  }
+}
+/*COLORS*/
+/*Аниме Просмотрено*/
+.c-lists-info .b-stats_bar.anime .bar > div.first:before,
+.c-lists-info .b-stats_bar.anime .bar > div.first:after,
+.c-lists-info .b-stats_bar.anime .stat_names .stat_name a[href*="completed"]:before{
+	border-color:transparent;
+	background-color:#c42f2f
+}
+/*Аниме Запланировано*/
+.c-lists-info .b-stats_bar.anime .bar > div.second:before,
+.c-lists-info .b-stats_bar.anime .bar > div.second:after,
+.c-lists-info .b-stats_bar.anime .stat_names .stat_name a[href*="planned"]:before,
+.c-lists-info .b-stats_bar.anime .stat_names .stat_name a[href*="watching"]:before,
+.c-lists-info .b-stats_bar.anime .stat_names .stat_name a[href*="on_hold"]:before{
+	border-color:transparent;
+	background-color:#35e856
+}
+
+/*Манга Прочитано*/
+.c-lists-info .b-stats_bar.manga .bar > div.first:before,
+.c-lists-info .b-stats_bar.manga .bar > div.first:after,
+.c-lists-info .b-stats_bar.manga .stat_names .stat_name a[href*="completed"]:before{
+	border-color: transparent;
+	background-color:#35e2e8
+}
+/*Манга Запланировано*/
+.c-lists-info .b-stats_bar.manga .bar > div.second:before,
+.c-lists-info .b-stats_bar.manga .bar > div.second:after,
+.c-lists-info .b-stats_bar.manga .stat_names .stat_name a[href*="planned"]:before,
+.c-lists-info .b-stats_bar.manga .stat_names .stat_name a[href*="watching"]:before,
+.c-lists-info .b-stats_bar.manga .stat_names .stat_name a[href*="on_hold"]:before{
+	border-color: transparent;
+	background-color:#e835d3
+}
+/*Оба Графика Брошено*/
+.c-lists-info .b-stats_bar .bar,
+.c-lists-info .b-stats_bar .stat_names .stat_name a[href*="dropped"]:before{
+	border-color: transparent;
+	background-color: #d4de50
+}
+/*Дырка в графике указать, transparent для прозрачной дырки*/
+.c-lists-info .b-stats_bar .bar:before{
+	background: #fff; 
+}
+
+/*COLORS:END*/
+.c-lists-info .b-stats_bar{
+	width: 49%;
+	display: inline-block;
+	padding:5px;
+	position: relative;
+}
+.c-lists-info .b-stats_bar:first-child{border-right:1px dotted #ddd}
+.c-lists-info .b-stats_bar .stat_names .stat_name:after{display: none}
+
+/*Блок списка*/
+.c-lists-info .b-stats_bar .stat_names{
+	display: flex;
+	position: absolute;
+	top:33px;
+	left:165px;
+	height:150px;
+	flex-direction: column;
+	justify-content: center;
+}
+
+/*Ссылка*/
+.c-lists-info .b-stats_bar .stat_names .stat_name a{
+	display: inline-block;
+	font-size: 12px;
+	position: relative;
+	line-height: 25px;
+}
+
+/*На х1000 обрезает число и загоняет текст под многоточее*/
+.x1000 .c-lists-info .b-stats_bar .stat_names a{
+	font-size: 11px;
+	width: 90px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.x1000 .c-lists-info .b-stats_bar .stat_names a span{
+	display: none;
+}
+/*Круг цветового индикатора*/
+.c-lists-info .b-stats_bar .stat_names .stat_name a:before {
+	content: "";
+	display: inline-block;
+	width: 12px;
+	height:12px;
+	background: #fff;
+	margin-right: 5px;
+	vertical-align: middle;
+	border:1px solid #ddd;
+	border-radius: 50%;
+}
+
+.p-profiles .about.block .b-spoiler label {
+    border: none;
+    display: inline-block !important;
+    font-weight: bold; /* толщина шрифта, можно убрать, если не нужно */
+    color: #000; /* цвет текста спойлера */
+    background: #e8ebef; /* цвет фона спойлера */
+    height: 30px; 
+    width: 100%;
+    font-size: 12pt; /* размер шрифта текста на спойлере */
+    padding-top: 3px; 
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.p-profiles .about.block .b-spoiler .after:before, .about.block .b-spoiler .before:before {
+    content: '';
+}
+
+.p-profiles .about.block .b-spoiler .before {
+    width: 100%; 
+    height: 50px;
+    display: inline-block !important;
+    margin-top: -50px;
+}
+.turbolinks:after {
+    content: " ";
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    position: fixed;
+    background: url(http://asset-1.soupcdn.com/asset/15072/2243_1c27.gif) fixed;
+}
+.b-main_search ul.popup li:hover,
+.l-top_menu .menu>.entry:hover ,
+.l-top_menu .submenu.right>a:hover,
+.l-top_menu .menu-items > .entry > .submenu>a:hover
+{
+-webkit-transition: 0.3s;
+-moz-transition: 0.3s;
+transition: 0.3s;
+-webkit-box-shadow:
+0 0 20px rgba(255,255,255,6),
+inset 0 0 20px rgba(255,255,255,1);
+-moz-box-shadow:
+0 0 20px rgba(255,255,255,.6),
+inset 0 0 20px rgba(255,255,255,1);
+box-shadow:
+0 0 20px rgba(255,255,255,.6),
+inset 0 0 20px rgba(255,255,255,1);
+}
